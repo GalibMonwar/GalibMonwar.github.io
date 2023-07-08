@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+    margin: 0;
+  }
+
+nav {
+    background-color: rgba(22, 22, 23, .8);
+    width: 100%;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'sen';
+    font-size: 2vw;
+    margin-top: 0%;
+    color: hsla(0, 0%, 100%, 0.8);
+    margin-right: 5%;
+}
+
+a {
+    margin: 2rem;
+    color: hsla(0, 0%, 100%, 0.8);;
+    text-decoration: none;
+}
+
+a img{    
+    width: 4vw;
+    max-width: 8vw;
+    height: auto; 
+    transition: all 0.6s ease;
+}
+
+a img:hover {
+    transform: scale(120%);
+}
+
+#profileimg {
+    border-radius: 50%;
+}
