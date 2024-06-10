@@ -10,20 +10,26 @@
     <div class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand is-size-1">
           <span class="has-text-info">G</span>alib
-            <div class="navbar-burger">
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" id="burger">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
-            </div>
+            </a>
         </div>
-        <div class="navbar-menu">
+        <div class="navbar-menu" id="nav-links">
             <div class="navbar-end">
-              <a class="navbar-item">About Me</a>
+              <a class="navbar-item" href="#about-me">About Me</a>
               <a class="navbar-item">Projects</a>
               <a class="navbar-item">Contact</a>
             </div>
         </div>
     </div>
+    <div class="columns">
+      <div class="column is-full is-size-2" id="about-me">About Me</div>
+      <div class="column is-one-third">Placeholder Image</div>
+      <div class="column">Blah Blah Blah</div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
